@@ -1,10 +1,10 @@
 #include "main.h"
 
 /*
- * create_array - makes an array
- * @size: size of the array
- * @c: content of the array
- * Return: Pointer to the array
+ * *create_array - makes an array
+ * @size: the size of the array
+ * @c: the character that initialises the array
+ * Return: a pointer to the array
  */
 char *create_array(unsigned int size, char c)
 {
